@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="css/style.css">
+        <title>Rock Paper Scissors!</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="title">Rock Paper Scissors</div>
+            </div>
+
+            <div class="selection">
+                <div class="player__selection">
+                    <div class="player_score">
+                        <div class="player">You </div>
+                        <div class="p_score">0</div>
+                    </div>
+                    <div id="rock" class="playerRock"></div>
+                    <div id="paper" class="playerPaper"></div>
+                    <div id="scissors" class="playerScissors"></div>
+                </div>
+
+                <div class="cpu__selection">
+                    <div class="cpu_score">
+                        <div class="c_score">0</div>
+                        <div class="cpu">Cpu </div>
+                    </div>
+                    <div id="crock" class="cpuRock"></div>
+                    <div id="cpaper" class="cpuPaper"></div>
+                    <div id="cscissors" class="cpuScissors"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal">
+            <div class="modal-content">
+                <p class="status"></p>
+                <button id="play-again">Play Again!</button>
+            </div>
+        </div>
+        
+        <footer><a href="https://github.com/1uum/"></a></footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
