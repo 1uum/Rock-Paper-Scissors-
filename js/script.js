@@ -11,7 +11,6 @@ let cpuScore = document.querySelector('.c_score');
 
 let status = document.querySelector('.status');
 const modal = document.querySelector('.modal')
-const modalWindow = document.querySelector('.modal-content')
 const playAgain = document.getElementById('play-again')
 
 
@@ -110,10 +109,8 @@ function check (){
     if (cpuPoints == 5 || playerPoints == 5){
         winner()
         modal.style.display = 'block'
-        modalWindow.style.display = 'block'
         playAgain.addEventListener('click', () => {
             modal.style.display = 'none'
-            modalWindow.style.display = 'none'
             cpuScore.textContent = '0';
             playerScore.textContent = '0';
             cpuPoints=0;
