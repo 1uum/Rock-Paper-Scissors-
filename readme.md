@@ -1,7 +1,7 @@
 # Rock Paper Scissors!
 ## This is the rock paper scissors project for The Odin Project!
 
-[Live Preview!](https://1uum.github.io/Rock-Paper-Scissors/)
+[Live Preview!](https://moralu94.github.io/Rock-Paper-Scissors/)
 
 [Project Page](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 
